@@ -23,7 +23,6 @@ function checkForMatch() {
   isMatch ? disableCards() : unflipCards();
   if(isMatch){
     allCardsMatch += 1;
-    console.log(allCardsMatch);
   }
   if(allCardsMatch == 6){
     wonGame();
